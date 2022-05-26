@@ -7,3 +7,10 @@ body{
     font-family: 'Courier New', Courier, monospace;
     background: orange;
 }
+
+.container{
+    border: 1px solid black;
+    width: 90%;
+    margin:auto;
+    display: flex;
+}
