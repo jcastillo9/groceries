@@ -22,3 +22,7 @@ body{
     background: white;
     box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.5)
 }
+.groceries h1{
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
