@@ -14,3 +14,11 @@ body{
     margin:auto;
     display: flex;
 }
+
+.groceries{
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background: white;
+    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.5)
+}
