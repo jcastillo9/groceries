@@ -6,3 +6,8 @@ const userInput = document.getElementById("userInput")
 pencil.addEventListener("click", function(){
     allItems.innerHTML = "";
 })
+
+userInput.addEventListener("keydown", function (event){
+    if(event.key == "Enter")
+    addItem()
+})
