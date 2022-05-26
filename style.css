@@ -48,3 +48,18 @@ body{
     font-size: 2rem;
 }
 
+@media(max-width:480px){
+    .groceries h1{
+        font-size: 2rem;
+    }
+    .groceries i{
+        font-size: 1.5rem;
+    }
+    .groceries input{
+        font-size: 1rem;
+    }
+    #allItem h2{
+        margin-left: 25px;
+        font-size: 1.5rem;
+    }
+}
