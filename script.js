@@ -11,3 +11,8 @@ userInput.addEventListener("keydown", function (event){
     if(event.key == "Enter")
     addItem()
 })
+
+function addItem(){
+    var h2 = document.createElement("h2");
+    h2.innerHTML = "- " + userInput.value;
+}
